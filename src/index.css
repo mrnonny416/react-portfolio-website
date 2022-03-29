@@ -7,6 +7,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -29,6 +30,7 @@
 }
 
 body {
+  margin-top: 5rem;
   font-family: "Quicksand", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
@@ -39,7 +41,7 @@ body {
 
 .container {
   width: var(--container-width-lg);
-  margin: 0;
+  margin: auto;
 }
 
 h1,
@@ -56,6 +58,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,
@@ -76,6 +79,7 @@ section > h2 {
 a {
   color: var(--color-primary);
   transition: var(--transition);
+  border-radius: 3rem;
 }
 
 a:hover {
